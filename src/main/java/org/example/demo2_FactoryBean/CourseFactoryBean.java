@@ -1,10 +1,10 @@
-package org.example.demo2;
+package org.example.demo2_FactoryBean;
 
 import org.springframework.beans.factory.FactoryBean;
 import org.springframework.stereotype.Component;
 
 @Component
-public class MockCourse implements FactoryBean<Course>
+public class CourseFactoryBean implements FactoryBean<Course>
 {
     @Override
     public Course getObject() throws Exception
@@ -24,6 +24,6 @@ public class MockCourse implements FactoryBean<Course>
     @Override
     public boolean isSingleton()
     {
-        return false;
+        return true;
     }
 }

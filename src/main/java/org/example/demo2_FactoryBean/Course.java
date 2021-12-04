@@ -1,4 +1,4 @@
-package org.example.demo2;
+package org.example.demo2_FactoryBean;
 
 import lombok.Data;
 

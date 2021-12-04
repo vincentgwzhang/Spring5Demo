@@ -1,4 +1,4 @@
-package org.example.demo3;
+package org.example.demo3_readProperty;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

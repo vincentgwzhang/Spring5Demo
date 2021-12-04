@@ -1,9 +1,7 @@
 package org.example.new_feature3_lambda;
 
-import org.example.new_feature1_log.Demo5Config;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.GenericApplicationContext;
 
 public class Demo7Application

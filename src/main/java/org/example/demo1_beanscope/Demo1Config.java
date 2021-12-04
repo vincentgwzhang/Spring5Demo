@@ -1,8 +1,5 @@
-package org.example.demo1;
+package org.example.demo1_beanscope;
 
-import java.util.Date;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 
 @ComponentScan

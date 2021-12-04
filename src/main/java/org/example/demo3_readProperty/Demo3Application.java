@@ -1,4 +1,4 @@
-package org.example.demo3;
+package org.example.demo3_readProperty;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

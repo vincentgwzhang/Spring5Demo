@@ -1,9 +1,12 @@
-package org.example.demo1;
+package org.example.demo1_beanscope;
 
 import java.util.Date;
+
+import lombok.Data;
 import org.springframework.stereotype.Component;
 
 @Component
+@Data
 public class ClassB
 {
     public ClassB()
@@ -12,14 +15,4 @@ public class ClassB
     }
 
     private String bString;
-
-    public String getbString()
-    {
-        return bString;
-    }
-
-    public void setbString(String bString)
-    {
-        this.bString = bString;
-    }
 }

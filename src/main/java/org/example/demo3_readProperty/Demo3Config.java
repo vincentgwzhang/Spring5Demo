@@ -1,4 +1,4 @@
-package org.example.demo3;
+package org.example.demo3_readProperty;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -21,12 +21,6 @@ public class Demo3Config
     public DBInfo initialDBInfo(@Value("${prop.driverClass}") String driverClass, @Value("${prop.url}") String url, @Value("${prop.userName}") String userName, @Value("${prop.password}") String password)
     {
         return new DBInfo(driverClass, url, userName, password);
-    }
-
-    @Bean
-    public static PropertySourcesPlaceholderConfigurer propertyConfigurer()
-    {
-        return new PropertySourcesPlaceholderConfigurer();
     }
 
 }

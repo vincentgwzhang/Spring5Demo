@@ -1,21 +1,17 @@
-package org.example.demo1;
+package org.example.demo1_beanscope;
 
+import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
+@Data
 public class ClassA
 {
-    @Autowired
     private ClassB classB;
 
-    public ClassB getClassB()
-    {
-        return classB;
-    }
-
-    public void setClassB(ClassB classB)
-    {
+    @Autowired
+    public ClassA(ClassB classB) {
         this.classB = classB;
     }
 }
